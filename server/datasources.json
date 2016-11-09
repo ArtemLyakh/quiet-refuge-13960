@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongoDS": {
+    "host": "ds147487.mlab.com",
+    "port": 47487,
+    "url": "mongodb://root:123321@ds147487.mlab.com:47487/artem-test-db",
+    "database": "artem-test-db",
+    "password": "123321",
+    "name": "mongoDS",
+    "user": "root",
+    "connector": "mongodb"
   }
 }
